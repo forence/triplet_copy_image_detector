@@ -12,7 +12,6 @@ from dataset import TripletDatasets
 from network import TripletNet
 from trainer import fit
 
-import numpy as np
 if __name__ == '__main__':
     data_transforms = {
         'train': transforms.Compose([
